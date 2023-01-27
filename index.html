@@ -12,12 +12,132 @@
 	<link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;500&family=Roboto:wght@400;700&display=swap"rel="stylesheet">
 	<!-- ICONS -->
 	<script src="https://kit.fontawesome.com/4eb54bf803.js" crossorigin="anonymous"></script>
-
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
+	<!-- TITLE -->
 	<title>Danielle Hemet | Front-end Web Developer</title>
-
 </head>
 
 <body>
-	
+	<!-- HEADER STARTS -->
+	<header>
+		<div class="wrapper">
+			<nav>
+				<ul>
+					<li>
+						<a class="home-nav" href="#">Home</a>
+					</li>
+					<li>
+						<a class="about-nav" href="#about-section">About</a>
+					</li>
+					<li>
+						<a class="projects-nav" href="#projects-section">Projects</a>
+					</li>
+					<li>
+						<a class="contact-nav" href="#contact-section">Contact</a>
+					</li>
+				</ul>
+			</nav>
+
+			<h1>
+				Danielle Hemet <span class="developer-title">Front-end Web Developer</span>
+			</h1>
+			<a role="button" class="button" href="#contact-section">Get in Touch</a>
+		</div>
+	</header>
+	<!-- HEADER ENDS -->
+
+	<!-- MAIN STARTS -->
+	<main>
+		<!-- ABOUT -->
+		<section class="about-section" id="about-section">
+			<div class="wrapper">
+				<img src="./assets/profile.jpg" alt="portrait photo of Danielle Hemet">
+				<h2>About Me</h2>
+				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio porro nulla dolor officia recusandae distinctio quidem. Perferendis doloremque vitae, deleniti quae iusto ad distinctio eum voluptatum, hic earum enim quidem rerum, quos dolore vero libero? Nam suscipit odio similique aliquam!</p>
+			</div>
+		</section>
+		<!-- ABOUT END -->
+
+		<!-- SKILLS -->
+		<section class="skills-section" id="skills-section">
+			<div class="wrapper">
+				<h2>Skills</h2>
+				<div class="skills-icon-container">
+					<i class="devicon-html5-plain"></i>
+					<i class="devicon-css3-plain"></i>
+					<i class="devicon-sass-original"></i>
+					<i class="devicon-javascript-plain"></i>
+					<i class="devicon-react-original"></i>
+					<i class="devicon-github-original"></i>
+					<i class="devicon-firebase-plain"></i>
+				</div>
+			</div>
+		</section>
+		<!-- SKILLS END -->
+
+		<!-- PROJECTS -->
+		<section class="projects-section" id="projects-section">
+			<div class="wrapper">
+				<h2>Projects</h2>
+				<ul class="projects-gallery">
+					<li class="project-one">
+						<img src="" alt="">
+						<h3>Project Title</h3>
+						<h4>HTML | CSS | Responsive Design</h4>
+						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid, culpa? Asperiores facere distinctio autem, ipsa pariatur quo alias nobis vel expedita quis veritatis cupiditate perspiciatis.</p>
+						<a role="button" class="button" href="">Live Site</a>
+						<a role="button" class="button" href="">GitHub Repo</a>
+					</li>
+
+					<li class="project-two">
+						<img src="" alt="">
+						<h3>Project Title</h3>
+						<h4>HTML | CSS | Responsive Design | JavaScript | RESTful API</h4>
+						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid, culpa? Asperiores facere distinctio autem, ipsa
+							pariatur quo alias nobis vel expedita quis veritatis cupiditate perspiciatis.</p>
+						<a role="button" class="button" href="">Live Site</a>
+						<a role="button" class="button" href="">GitHub Repo</a>
+					</li>
+				</ul>
+
+			</div>
+		</section>
+		<!-- PROJECTS END -->
+
+		<!-- CONTACT -->
+		<section class="contact-section" id="contact-section">
+			<div class="wrapper">
+				<h2>Contact</h2>
+
+				<div class="socials-icon-container">
+					<i class="fa-brands fa-linkedin"></i>
+					<i class="devicon-github-original"></i>
+					<i class="fa-solid fa-envelope"></i>
+				</div>
+
+				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab vero sunt quasi. Tenetur qui odio facere velit sit, ea quo.</p>
+				<form action="" name="contact-form">
+					<label for="name"></label>
+					<input type="text" id="name" name="name" placeholder="Name">
+
+					<label for="email"></label>
+					<input type="email" id="email" name="email" placeholder="Email address">
+
+					<label for="message"></label>
+					<textarea name="message" id="message" cols="50" rows="10" placeholder="Message"></textarea>
+
+					<button type="submit">Submit</button>
+				</form>
+			</div>
+		</section>
+		<!-- CONTACT ENDS -->
+	</main>
+	<!-- MAIN ENDS -->
+
+	<!-- FOOTER STARTS -->
+	<footer>
+		<p>Copyright 2023 - Made with ❤️ by Danielle Hemet</p>
+	</footer>
+	<!-- FOOTER ENDS -->
 </body>
 </html>
