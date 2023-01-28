@@ -1,0 +1,26 @@
+@use "./variables" as *;
+
+.skills-section {
+  background-color: $clr-green;
+  color: $clr-lt;
+  text-align: center;
+  height: 75vh;
+  max-height: 600px;
+  display: flex;
+  h2 {
+    margin-bottom: 0;
+  }
+  .skills-icon-container {
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 600px;
+    margin: 0 auto;
+    i {
+      display: inline-block;
+      font-size: 5rem;
+      margin: 30px;
+    }
+  }
+  
+
+}

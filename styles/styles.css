@@ -231,10 +231,6 @@ html {
   margin: 0 auto;
 }
 
-header {
-  color: #F8F4F3;
-}
-
 li {
   list-style: none;
 }
@@ -274,6 +270,7 @@ header {
   max-height: 750px;
   background-color: #365C46;
   text-align: center;
+  color: #F8F4F3;
 }
 header h1 {
   margin-top: 165px;
@@ -281,6 +278,7 @@ header h1 {
 }
 header h1 span {
   display: block;
+  font-weight: lighter;
 }
 
 nav ul {
@@ -313,7 +311,7 @@ nav ul li:hover {
   width: 200px;
   height: auto;
   margin: 20px auto;
-  margin-top: 100px;
+  margin-top: 60px;
 }
 
 .about-section .wrapper {
@@ -335,6 +333,34 @@ nav ul li:hover {
 .about-section .wrapper p {
   max-width: 800px;
   margin: 10px auto;
-  margin-bottom: 90px;
+  margin-bottom: 50px;
   line-height: 30px;
+}
+
+.skills-section {
+  background-color: #365C46;
+  color: #F8F4F3;
+  text-align: center;
+  height: 75vh;
+  max-height: 600px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.skills-section h2 {
+  margin-bottom: 0;
+}
+.skills-section .skills-icon-container {
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 600px;
+  margin: 0 auto;
+}
+.skills-section .skills-icon-container i {
+  display: inline-block;
+  font-size: 5rem;
+  margin: 30px;
 }
