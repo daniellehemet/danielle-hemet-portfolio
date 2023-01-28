@@ -8,18 +8,26 @@
   max-height: 600px;
   display: flex;
   h2 {
-    margin-bottom: 0;
+    margin-bottom: 30px;
   }
   .skills-icon-container {
     flex-wrap: wrap;
-    justify-content: space-between;
     width: 600px;
     margin: 0 auto;
-    i {
+    .individual-icon {
       display: inline-block;
-      font-size: 5rem;
-      margin: 30px;
     }
+      i {
+        display: inline-block;
+        font-size: 5rem;
+        margin: 10px 30px;
+      }
+      p {
+        margin: 5px 0;
+        font-family: $secondary-font;
+        text-transform: uppercase;
+        font-size: 0.9rem;
+      }
   }
   
 

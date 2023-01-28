@@ -348,19 +348,25 @@ nav ul li:hover {
   display: flex;
 }
 .skills-section h2 {
-  margin-bottom: 0;
+  margin-bottom: 30px;
 }
 .skills-section .skills-icon-container {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
   width: 600px;
   margin: 0 auto;
+}
+.skills-section .skills-icon-container .individual-icon {
+  display: inline-block;
 }
 .skills-section .skills-icon-container i {
   display: inline-block;
   font-size: 5rem;
-  margin: 30px;
+  margin: 10px 30px;
+}
+.skills-section .skills-icon-container p {
+  margin: 5px 0;
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  font-size: 0.9rem;
 }
