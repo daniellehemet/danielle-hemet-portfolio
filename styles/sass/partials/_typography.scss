@@ -1,0 +1,19 @@
+@use "./variables" as *;
+
+body {
+  font-size: 125%;
+  font-family: $secondary-font;
+}
+
+h1 {
+  font-size: 5rem;
+}
+
+.developer-title {
+  font-family: $primary-font;
+  font-size: 1.8rem;
+}
+
+p {
+  font-family: $primary-font;
+}
