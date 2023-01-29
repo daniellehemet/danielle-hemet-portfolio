@@ -443,3 +443,61 @@ h4 {
   margin-top: 10px;
   display: inline-block;
 }
+
+.contact-section {
+  text-align: center;
+  background-color: #B6CAA2;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 750px;
+}
+.contact-section h2 {
+  margin-bottom: 20px;
+}
+.contact-section div.socials-icon-container {
+  color: #F8F4F3;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  font-size: 2.1rem;
+  width: 250px;
+  margin: 0 auto;
+}
+.contact-section p {
+  width: 60%;
+  margin: 20px auto;
+}
+.contact-section form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 60%;
+  margin: 20px auto;
+}
+.contact-section form input {
+  margin-bottom: 20px;
+}
+.contact-section form textarea {
+  margin-bottom: 20px;
+}
+
+footer {
+  text-align: center;
+  background-color: #365C46;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+footer p {
+  font-size: 0.9rem;
+  color: #F8F4F3;
+  margin: 10px auto;
+}

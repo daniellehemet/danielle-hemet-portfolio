@@ -1,0 +1,12 @@
+@use "./variables" as *;
+
+footer {
+  text-align: center;
+  background-color: $clr-green;
+  display: flex;
+  p {
+    font-size: 0.9rem;
+    color: $clr-lt;
+    margin: 10px auto;
+  }
+}
