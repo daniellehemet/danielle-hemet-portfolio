@@ -35,6 +35,12 @@
       i {
         display: inline-block;
         font-size: 5rem;
+        @media(max-width: 620px) {
+            font-size: 3.8rem;
+          }
+        @media(max-width: 490px) {
+          font-size: 3.2rem;
+        }
         margin: 10px 30px;
       }
       p {
@@ -42,6 +48,9 @@
         font-family: $secondary-font;
         text-transform: uppercase;
         font-size: 0.9rem;
+        @media(max-width: 620px) {
+            font-size: 0.8rem;
+          }
       }
   }
   

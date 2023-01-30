@@ -234,6 +234,16 @@ html {
   width: 75%;
   margin: 0 auto;
 }
+@media (max-width: 700px) {
+  .wrapper {
+    width: 85%;
+  }
+}
+@media (max-width: 430px) {
+  .wrapper {
+    width: 95%;
+  }
+}
 
 li {
   list-style: none;
@@ -277,12 +287,12 @@ button {
   border: none;
 }
 button:hover {
-  -webkit-box-shadow: 4px 4px 6px #B6CAA2;
-          box-shadow: 4px 4px 6px #B6CAA2;
+  -webkit-box-shadow: 4px 4px 6px #a6c5a5;
+          box-shadow: 4px 4px 6px #a6c5a5;
 }
 button:focus {
-  -webkit-box-shadow: 4px 4px 6px #B6CAA2;
-          box-shadow: 4px 4px 6px #B6CAA2;
+  -webkit-box-shadow: 4px 4px 6px #a6c5a5;
+          box-shadow: 4px 4px 6px #a6c5a5;
 }
 
 body {
@@ -293,16 +303,51 @@ body {
 h1, h2 {
   font-size: 4.8rem;
 }
+@media (max-width: 620px) {
+  h1, h2 {
+    font-size: 3.8rem;
+  }
+}
+@media (max-width: 490px) {
+  h1, h2 {
+    font-size: 3.5rem;
+  }
+}
+@media (max-width: 453px) {
+  h1, h2 {
+    font-size: 3.2rem;
+  }
+}
+@media (max-width: 413px) {
+  h1, h2 {
+    font-size: 3rem;
+  }
+}
 
 .developer-title {
   font-family: "Lora", serif;
   font-size: 1.8rem;
+}
+@media (max-width: 620px) {
+  .developer-title {
+    font-size: 1.5rem;
+  }
+}
+@media (max-width: 413px) {
+  .developer-title {
+    font-size: 1.3rem;
+  }
 }
 
 p {
   font-family: "Lora", serif;
   line-height: 30px;
   font-size: 1.1rem;
+}
+@media (max-width: 490px) {
+  p {
+    font-size: 1rem;
+  }
 }
 
 h4 {
@@ -332,6 +377,11 @@ header {
 header h1 {
   margin-top: 165px;
   margin-bottom: 30px;
+}
+@media (max-width: 700px) {
+  header h1 {
+    margin-top: 265px;
+  }
 }
 header h1 span {
   display: block;
@@ -386,14 +436,14 @@ nav ul li:visited {
   color: #F2F7F7;
 }
 nav ul li:hover {
-  -webkit-box-shadow: 0 4px 0 #B6CAA2;
-          box-shadow: 0 4px 0 #B6CAA2;
+  -webkit-box-shadow: 0 4px 0 #a6c5a5;
+          box-shadow: 0 4px 0 #a6c5a5;
   -webkit-transition: 0.2s;
   transition: 0.2s;
 }
 nav ul li:focus {
-  -webkit-box-shadow: 0 4px 0 #B6CAA2;
-          box-shadow: 0 4px 0 #B6CAA2;
+  -webkit-box-shadow: 0 4px 0 #a6c5a5;
+          box-shadow: 0 4px 0 #a6c5a5;
   -webkit-transition: 0.2s;
   transition: 0.2s;
 }
@@ -520,11 +570,26 @@ nav ul li:focus {
   font-size: 5rem;
   margin: 10px 30px;
 }
+@media (max-width: 620px) {
+  .skills-section .skills-icon-container i {
+    font-size: 3.8rem;
+  }
+}
+@media (max-width: 490px) {
+  .skills-section .skills-icon-container i {
+    font-size: 3.2rem;
+  }
+}
 .skills-section .skills-icon-container p {
   margin: 5px 0;
   font-family: "Roboto", sans-serif;
   text-transform: uppercase;
   font-size: 0.9rem;
+}
+@media (max-width: 620px) {
+  .skills-section .skills-icon-container p {
+    font-size: 0.8rem;
+  }
 }
 
 .projects-section {
@@ -574,6 +639,21 @@ nav ul li:focus {
         align-self: center;
   }
 }
+@media (max-width: 490px) {
+  .projects-section ul li {
+    width: 360px;
+  }
+}
+@media (max-width: 390px) {
+  .projects-section ul li {
+    width: 320px;
+  }
+}
+@media (max-width: 365px) {
+  .projects-section ul li {
+    width: 290px;
+  }
+}
 .projects-section ul li:hover {
   -webkit-box-shadow: 0px 6px 15px #365C46;
           box-shadow: 0px 6px 15px #365C46;
@@ -610,10 +690,15 @@ h4 {
   margin-top: 10px;
   display: inline-block;
 }
+@media (max-width: 390px) {
+  .projects-section a.button {
+    margin-left: 10px;
+  }
+}
 
 .contact-section {
   text-align: center;
-  background-color: #B6CAA2;
+  background-color: #a6c5a5;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -648,7 +733,7 @@ h4 {
   color: #DCF6F7;
 }
 .contact-section p {
-  width: 60%;
+  width: 70%;
   margin: 20px auto;
 }
 .contact-section form {
@@ -659,7 +744,7 @@ h4 {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  width: 60%;
+  width: 80%;
   margin: 20px auto;
   margin-bottom: 60px;
 }
@@ -670,6 +755,12 @@ h4 {
   margin-bottom: 20px;
 }
 
+@media (max-width: 700px) {
+  .contact-section p,
+.contact-section form {
+    width: 100%;
+  }
+}
 footer {
   text-align: center;
   background-color: #365C46;

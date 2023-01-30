@@ -28,6 +28,15 @@
       @media(max-width: 1090px) {
         align-self: center;
       }
+      @media(max-width: 490px) {
+        width: calc(360px);
+      }
+      @media(max-width: 390px) {
+        width: calc(320px);
+      }
+      @media(max-width: 365px) {
+        width: calc(290px);
+      }
       &:hover {
         box-shadow: 0px 6px 15px $clr-green;
       }
@@ -63,5 +72,9 @@ h4 {
   margin-left: 20px;
   margin-top: 10px;
   display: inline-block;
+  @media(max-width: 390px) {
+      margin-left: 10px;
+    }
 }
+
 

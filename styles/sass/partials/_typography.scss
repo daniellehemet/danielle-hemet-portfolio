@@ -7,17 +7,38 @@ body {
 
 h1, h2 {
   font-size: 4.8rem;
+  @media(max-width: 620px) {
+    font-size: 3.8rem;
+  }
+  @media(max-width: 490px) {
+    font-size: 3.5rem;
+  }
+  @media(max-width: 453px) {
+    font-size: 3.2rem;
+  }
+  @media(max-width: 413px) {
+    font-size: 3rem;
+  }
 }
 
 .developer-title {
   font-family: $primary-font;
   font-size: 1.8rem;
+  @media(max-width: 620px) {
+    font-size: 1.5rem;
+  }
+  @media(max-width: 413px) {
+    font-size: 1.3rem;
+  }
 }
 
 p {
   font-family: $primary-font;
   line-height: 30px;
   font-size: 1.1rem;
+  @media(max-width: 490px) {
+    font-size: 1rem;
+  }
 }
 
 h4 {

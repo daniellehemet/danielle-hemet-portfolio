@@ -10,6 +10,9 @@ header {
   h1 {
     margin-top: 165px;
     margin-bottom: 30px;
+    @media(max-width: 700px) {
+      margin-top: 265px;
+    }
     span {
       display: block;
       font-weight: lighter;
