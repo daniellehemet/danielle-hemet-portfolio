@@ -424,9 +424,9 @@ nav ul li:focus {
   background-color: #365C46;
   color: white;
   text-align: center;
-  height: 75vh;
+  height: 100%;
   min-height: 550px;
-  max-height: 700px;
+  max-height: 800px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -437,8 +437,9 @@ nav ul li:focus {
 .skills-section .skills-icon-container {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  width: 800px;
+  width: 100%;
   margin: 0 auto;
+  margin-bottom: 60px;
 }
 .skills-section .skills-icon-container .individual-icon {
   display: inline-block;
