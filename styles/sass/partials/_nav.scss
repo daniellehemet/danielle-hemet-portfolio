@@ -20,7 +20,12 @@ nav ul {
       color: $clr-lt;
     }
     &:hover {
-      font-size: 1.4rem;
+      box-shadow: 0 4px 0 $clr-green-alt;
+      transition: 0.2s;
+    }
+    &:focus {
+      box-shadow: 0 4px 0 $clr-green-alt;
+      transition: 0.2s;
     }
   }
 }

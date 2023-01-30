@@ -249,6 +249,40 @@ a {
   font-weight: bold;
   color: #14070E;
   text-decoration: none;
+  -webkit-box-shadow: 4px 4px 6px #DCF6F7;
+          box-shadow: 4px 4px 6px #DCF6F7;
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+.button:hover {
+  -webkit-box-shadow: 4px 4px 6px #8FCCCE;
+          box-shadow: 4px 4px 6px #8FCCCE;
+  background-color: #DCF6F7;
+}
+.button:focus {
+  -webkit-box-shadow: 4px 4px 6px #8FCCCE;
+          box-shadow: 4px 4px 6px #8FCCCE;
+  background-color: #DCF6F7;
+}
+
+button {
+  background-color: #8FCCCE;
+  padding: 5px 5px;
+  color: #14070E;
+  text-transform: uppercase;
+  -webkit-box-shadow: 4px 4px 6px #365C46;
+          box-shadow: 4px 4px 6px #365C46;
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+  border: none;
+}
+button:hover {
+  -webkit-box-shadow: 4px 4px 6px #B6CAA2;
+          box-shadow: 4px 4px 6px #B6CAA2;
+}
+button:focus {
+  -webkit-box-shadow: 4px 4px 6px #B6CAA2;
+          box-shadow: 4px 4px 6px #B6CAA2;
 }
 
 body {
@@ -257,7 +291,7 @@ body {
 }
 
 h1, h2 {
-  font-size: 5rem;
+  font-size: 4.8rem;
 }
 
 .developer-title {
@@ -268,7 +302,7 @@ h1, h2 {
 p {
   font-family: "Lora", serif;
   line-height: 30px;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
 }
 
 h4 {
@@ -279,6 +313,10 @@ h4 {
 
 a.button {
   font-size: 1rem;
+}
+
+button {
+  font-size: 0.9rem;
 }
 
 header {
@@ -326,7 +364,16 @@ nav ul li:visited {
   color: #F2F7F7;
 }
 nav ul li:hover {
-  font-size: 1.4rem;
+  -webkit-box-shadow: 0 4px 0 #B6CAA2;
+          box-shadow: 0 4px 0 #B6CAA2;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+nav ul li:focus {
+  -webkit-box-shadow: 0 4px 0 #B6CAA2;
+          box-shadow: 0 4px 0 #B6CAA2;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
 }
 
 .about-section img {
@@ -356,7 +403,21 @@ nav ul li:hover {
 .about-section .wrapper p {
   max-width: 800px;
   margin: 10px auto;
+}
+.about-section .wrapper p:last-child {
   margin-bottom: 60px;
+}
+
+.about-section a {
+  color: #365C46;
+}
+.about-section a:hover {
+  -webkit-text-decoration: underline dotted #365C46;
+          text-decoration: underline dotted #365C46;
+}
+.about-section a:focus {
+  -webkit-text-decoration: underline dotted #365C46;
+          text-decoration: underline dotted #365C46;
 }
 
 .skills-section {
@@ -364,7 +425,8 @@ nav ul li:hover {
   color: white;
   text-align: center;
   height: 75vh;
-  max-height: 600px;
+  min-height: 550px;
+  max-height: 700px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -375,11 +437,25 @@ nav ul li:hover {
 .skills-section .skills-icon-container {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  width: 600px;
+  width: 800px;
   margin: 0 auto;
 }
 .skills-section .skills-icon-container .individual-icon {
   display: inline-block;
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+.skills-section .skills-icon-container .individual-icon:hover {
+  color: #8FCCCE;
+}
+.skills-section .skills-icon-container .individual-icon:hover p {
+  text-shadow: 1px 1px 2px #14070E;
+}
+.skills-section .skills-icon-container .individual-icon:focus {
+  color: #8FCCCE;
+}
+.skills-section .skills-icon-container .individual-icon:focus p {
+  text-shadow: 1px 1px 2px #14070E;
 }
 .skills-section .skills-icon-container i {
   display: inline-block;
@@ -421,6 +497,16 @@ nav ul li:hover {
   width: 400px;
   height: 600px;
   background-color: white;
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+.projects-section ul li:hover {
+  -webkit-box-shadow: 0px 6px 15px #365C46;
+          box-shadow: 0px 6px 15px #365C46;
+}
+.projects-section ul li:focus {
+  -webkit-box-shadow: 0px 6px 15px #365C46;
+          box-shadow: 0px 6px 15px #365C46;
 }
 
 .projects-section img {
@@ -473,6 +559,19 @@ h4 {
   font-size: 2.1rem;
   width: 250px;
   margin: 0 auto;
+}
+.contact-section div.socials-icon-container a {
+  text-decoration: none;
+  color: white;
+}
+.contact-section div.socials-icon-container a:hover {
+  color: #DCF6F7;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+  border-bottom: solid 1px #DCF6F7;
+}
+.contact-section div.socials-icon-container a:focus {
+  color: #DCF6F7;
 }
 .contact-section p {
   width: 60%;

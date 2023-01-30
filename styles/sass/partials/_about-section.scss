@@ -19,6 +19,18 @@
   p {
     max-width: 800px;
     margin: 10px auto;
-    margin-bottom: 60px;
+    &:last-child {
+      margin-bottom: 60px;
+    }
   }
 }
+
+.about-section a {
+  color: $clr-green;
+  &:hover {
+    text-decoration: underline dotted $clr-green;
+  }
+  &:focus {
+    text-decoration: underline dotted $clr-green;
+  }
+} 
