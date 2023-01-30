@@ -4,7 +4,7 @@
   text-align: center;
   background-color: $clr-green-alt;
   display: flex;
-  height: 750px;
+  height: 100%;
   h2 {
     margin-bottom: 20px;
   }
@@ -37,6 +37,7 @@
     flex-direction: column;
     width: 60%;
     margin: 20px auto;
+    margin-bottom: 60px;
     input {
       margin-bottom: 20px;
     }
