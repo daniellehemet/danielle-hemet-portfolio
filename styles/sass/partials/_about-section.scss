@@ -1,0 +1,36 @@
+@use "./variables" as *;
+
+.about-section img {
+  border-radius: 50%;
+  width: 200px;
+  height: auto;
+  margin: 20px auto;
+  margin-top: 60px;
+}
+
+.about-section .wrapper {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  h2 {
+    margin: 0;
+  }
+  p {
+    max-width: 800px;
+    margin: 10px auto;
+    &:last-child {
+      margin-bottom: 60px;
+    }
+  }
+}
+
+.about-section a {
+  color: $clr-green;
+  &:hover {
+    text-decoration: underline dotted $clr-green;
+  }
+  &:focus {
+    text-decoration: underline dotted $clr-green;
+  }
+} 

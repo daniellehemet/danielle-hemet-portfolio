@@ -1,0 +1,80 @@
+@use "./variables" as *;
+
+.projects-section {
+  display: flex;
+  background-color: $clr-lt;
+  height: 100%;
+  h2 {
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  ul {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    margin-bottom: 60px;
+    padding: 0;
+    justify-content: space-between;
+    max-width: 850px;
+    @media(max-width: 1090px) {
+      flex-direction: column;
+    }
+    li {
+      width: calc(400px);
+      height: calc(600px);
+      margin-bottom: 60px;
+      background-color: white;
+      transition: all 0.2s ease;
+      @media(max-width: 1090px) {
+        align-self: center;
+      }
+      @media(max-width: 490px) {
+        width: calc(360px);
+      }
+      @media(max-width: 390px) {
+        width: calc(320px);
+      }
+      @media(max-width: 365px) {
+        width: calc(290px);
+      }
+      &:hover {
+        box-shadow: 0px 6px 15px $clr-green;
+      }
+      &:focus {
+        box-shadow: 0px 6px 15px $clr-green;
+      }
+    }
+  }
+}
+
+.projects-section img {
+  height: 250px;
+  width: 100%;
+  object-fit: cover;
+}
+
+h3 {
+  margin-bottom: 10px;
+  padding: 0 20px;
+}
+
+h4 {
+  margin: 10px auto;
+  padding: 0 20px;
+}
+
+.projects-section p {
+  padding: 0 20px;
+  margin: 10px auto;
+}
+
+.projects-section a.button {
+  margin-left: 20px;
+  margin-top: 10px;
+  display: inline-block;
+  @media(max-width: 390px) {
+      margin-left: 10px;
+    }
+}
+
+

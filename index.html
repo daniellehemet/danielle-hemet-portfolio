@@ -1,42 +1,186 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <!-- STYLESHEET LINK -->
-  <link rel="stylesheet" href="styles.css">
-  <!-- FONTS LINK -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@300;400;700&display=swap" rel="stylesheet">
-  <!-- TITLE -->
-  <title>Danielle Hemet - Front-end Web Developer</title>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- STYLES -->
+	<link rel="stylesheet" href="./styles/styles.css">
+	<!-- FONTS -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;500&family=Roboto:wght@400;700&display=swap"rel="stylesheet">
+	<!-- ICONS -->
+	<script src="https://kit.fontawesome.com/4eb54bf803.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
+	<!-- TITLE -->
+	<title>Danielle Hemet | Front-end Web Developer</title>
 </head>
-<body>
-  <div class="wrapper">
-    <div class="welcomeBox">
-      <h1>Welcome!</h1>
-      <p>Thanks for visiting!</p>
-      <p>Good things are on the way - this site is currently under construction, so please come back another time.</p>
-    </div>
-    
-    <!-- Placekitten Gallery -->
-    <!-- TEXT -->
-    <div class="textContainer">
-      <h2>Here, have some kittens!</h2>
-    </div>
-    
-    <div class="gallery">
-      <div class="placeHolder">
-        <img src="http://placekitten.com/g/400/400" alt="A cute kitten.">
-      </div>
-    
-      <div class="placeHolder">
-        <img src="http://placekitten.com/400/400" alt="A cute kitten.">
-      </div>
-    </div> <!--gallery ends-->
-  </div>
 
+<body>
+	<!-- HEADER STARTS -->
+	<a href="#" class="toggle-button">
+		<span class="bar"></span>
+		<span class="bar"></span>
+		<span class="bar"></span>
+	</a>
+	<nav>
+		<ul class="navbar-links">
+			<li>
+				<a class="home-nav" href="#">Home</a>
+			</li>
+			<li>
+				<a class="about-nav" href="#about-section">About</a>
+			</li>
+			<li>
+				<a class="projects-nav" href="#projects-section">Projects</a>
+			</li>
+			<li>
+				<a class="contact-nav" href="#contact-section">Contact</a>
+			</li>
+		</ul>
+	</nav>
+	<header>
+		<div class="wrapper">
+			<h1>
+				Danielle Hemet <span class="developer-title">Front-end Web Developer</span>
+			</h1>
+			<a role="button" class="button" href="#contact-section">Get in Touch</a>
+		</div>
+	</header>
+	<!-- HEADER ENDS -->
+
+	<!-- MAIN STARTS -->
+	<main>
+		<!-- ABOUT -->
+		<section class="about-section" id="about-section">
+			<div class="wrapper">
+				<img src="./assets/profile.jpg" alt="portrait photo of Danielle Hemet">
+				<h2>About Me</h2>
+				<p>Hi! I'm Danielle (she/her), a front-end developer and recent graduate from <a href="https://junocollege.com/">Juno College</a> with an eye for detail and a passion for elevating user experience through responsive and accessible code.</p>
+				<p>I have an educational background in	interdisciplinary health sciences and biotechnology and a wealth of past experience working in administration and customer service prior to my career as a developer, which has fostered strong communication skills and a meticulous, goal-oriented approach in everything I do.</p>
+				<p>When I'm not coding, you can find me nose-deep in a good book, catching up on the latest scary movies, playing videogames, or rolling dice	and telling stories with friends.</p>
+			</div>
+		</section>
+		<!-- ABOUT END -->
+
+		<!-- SKILLS -->
+		<section class="skills-section" id="skills-section">
+			<div class="wrapper">
+				<h2>Skills</h2>
+				<div class="skills-icon-container">
+					<div class="individual-icon">
+						<i class="devicon-html5-plain"></i>
+						<p>HTML</p>
+					</div>
+					<div class="individual-icon">
+						<i class="devicon-css3-plain"></i>
+						<p>CSS</p>
+					</div>
+					<div class="individual-icon">
+						<i class="devicon-sass-original"></i>
+						<p>SASS</p>
+					</div>
+					<div class="individual-icon">
+						<i class="devicon-javascript-plain"></i>
+						<p>JavaScript</p>
+					</div>
+					<div class="individual-icon">
+						<i class="devicon-react-original"></i>
+						<p>React</p>
+					</div>
+					<div class="individual-icon">
+						<i class="devicon-firebase-plain"></i>
+						<p>Firebase</p>
+					</div>
+					<div class="individual-icon">
+						<i class="devicon-git-plain"></i>
+						<p>Git</p>
+					</div>
+					<div class="individual-icon">
+						<i class="devicon-github-original"></i>
+						<p>GitHub</p>
+					</div>
+					<div class="individual-icon">
+						<i class="fa-solid fa-mobile-screen-button"></i>
+						<p>Responsive Design</p>
+					</div>
+					<div class="individual-icon">
+						<i class="fa-solid fa-universal-access"></i>
+						<p>Accessibility</p>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- SKILLS END -->
+
+		<!-- PROJECTS -->
+		<section class="projects-section" id="projects-section">
+			<div class="wrapper">
+				<h2>Projects</h2>
+				<ul class="projects-gallery">
+					<li class="project-one">
+						<img src="./assets/Screenshot (46).png" alt="Screenshot of 'Willow' website homepage">
+						<h3>Daily Musings of Willow - PSD Conversion</h3>
+						<h4>HTML | CSS | Responsive</h4>
+						<p>A PSD design conversion into a multi-page website, built with accessibility in mind and responsive across multiple devices.</p>
+						<a role="button" class="button" href="https://blog-dailymusingsofwillow.netlify.app/">Live Site</a>
+						<a role="button" class="button" href="https://github.com/daniellehemet/project-1.git">GitHub Repo</a>
+					</li>
+
+					<li class="project-two">
+						<img src="./assets/Screenshot (47).png" alt="Screenshot of 'Top Films Around The World' application">
+						<h3>Top-rated Films Around The World</h3>
+						<h4>HTML | CSS | JavaScript | API | Responsive </h4>
+						<p>An interactive web app utilizes that The Movie Database (TMDB) API to display the twenty top-rated films for a country based on the user's selection.</p>
+						<a role="button" class="button" href="https://top-rated-films-around-the-world.netlify.app/">Live Site</a>
+						<a role="button" class="button" href="https://github.com/Project-2-group-11/Top-rated-films-around-the-world.git">GitHub Repo</a>
+					</li>
+				</ul>
+
+			</div>
+		</section>
+		<!-- PROJECTS END -->
+
+		<!-- CONTACT -->
+		<section class="contact-section" id="contact-section">
+			<div class="wrapper">
+				<h2>Contact</h2>
+				<div class="socials-icon-container">
+					<a href=" www.linkedin.com/in/danielle-hemet">
+						<i class="fa-brands fa-linkedin"></i>
+					</a>
+					<a href="https://github.com/daniellehemet">
+						<i class="devicon-github-original"></i>
+					</a>
+					<a href="https://calendly.com/daniellehemet">
+						<i class="fa-solid fa-calendar-days"></i>
+					</a>
+				</div>
+				<p>Want me on your team? Just want to chat? If you'd like to connect, feel free to contact me via the form below, or check out my Calendly and social media accounts linked above.</p>
+				<form action="" name="contact-form">
+					<label for="name"></label>
+					<input type="text" id="name" name="name" placeholder="Name">
+
+					<label for="email"></label>
+					<input type="email" id="email" name="email" placeholder="Email address">
+
+					<label for="message"></label>
+					<textarea name="message" id="message" cols="50" rows="10" placeholder="Message"></textarea>
+
+					<button type="submit">Submit</button>
+				</form>
+			</div>
+		</section>
+		<!-- CONTACT ENDS -->
+	</main>
+	<!-- MAIN ENDS -->
+
+	<!-- FOOTER STARTS -->
+	<footer>
+		<p>Copyright 2023 - Made with ❤️ by Danielle Hemet</p>
+	</footer>
+	<!-- FOOTER ENDS -->
+	<script src="./script.js"></script>
 </body>
 </html>

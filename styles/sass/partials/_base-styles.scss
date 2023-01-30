@@ -1,0 +1,60 @@
+@use "./variables" as *;
+
+html {
+  scroll-behavior: smooth;
+}
+
+.wrapper {
+  width: 75%;
+  margin: 0 auto;
+  @media(max-width: 700px) {
+    width: 85%;
+  }
+  @media(max-width: 430px) {
+    width: 95%;
+  }
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.button {
+  background-color: $clr-accent-alt;
+  padding: 10px 25px;
+  font-weight: bold;
+  color: $clr-blk;
+  text-decoration: none;
+  box-shadow: 4px 4px 6px $clr-accent;
+  transition: all 0.2s ease;
+  &:hover {
+    box-shadow: 4px 4px 6px $clr-accent-alt;
+    background-color: $clr-accent;
+  }
+  &:focus {
+    box-shadow: 4px 4px 6px $clr-accent-alt;
+    background-color: $clr-accent;
+  }
+}
+
+button {
+  background-color: $clr-accent-alt;
+  padding: 5px 5px;
+  color: $clr-blk;
+  text-transform: uppercase;
+  box-shadow: 4px 4px 6px $clr-green;
+  transition: all 0.2s ease;
+  border: none;
+
+  &:hover {
+    box-shadow: 4px 4px 6px $clr-green-alt;
+  }
+
+  &:focus {
+    box-shadow: 4px 4px 6px $clr-green-alt;
+  }
+}

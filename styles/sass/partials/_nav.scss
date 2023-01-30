@@ -1,0 +1,66 @@
+@use "./variables" as *;
+
+nav {
+  background-color: $clr-green;
+  @media(max-width: 700px) {
+    background-color: $clr-green-dk;
+  }
+}
+
+nav ul {
+  display: flex;
+  padding: 0;
+  margin: 0;
+  justify-content: center;
+  @media(max-width: 700px) {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+  }
+  li {
+    margin: 20px 60px;
+    @media(max-width: 700px) {
+      margin: 10px 30px;
+    }
+    a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    &:visited {
+      color: $clr-lt;
+    }
+    &:hover {
+      box-shadow: 0 4px 0 $clr-green-alt;
+      transition: 0.2s;
+    }
+    &:focus {
+      box-shadow: 0 4px 0 $clr-green-alt;
+      transition: 0.2s;
+    }
+  }
+}
+
+.toggle-button {
+  position: absolute;
+  top: 1.4rem;
+  right: 1.4rem;
+  display: none;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 50px;
+  height: 30px;
+  @media(max-width: 700px) {
+    display: flex;
+  }
+  .bar {
+    height: 5px;
+    width: 100%;
+    background-color: white;
+    border-radius: 10px;
+  }
+}
+
+.navbar-links.active {
+  display: flex;
+}
