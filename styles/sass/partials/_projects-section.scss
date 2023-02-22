@@ -14,14 +14,14 @@
     margin: 0 auto;
     margin-bottom: 60px;
     padding: 0;
-    justify-content: space-between;
+    justify-content: space-around;
     max-width: 850px;
     @media(max-width: 1090px) {
       flex-direction: column;
     }
     li {
       width: calc(400px);
-      height: calc(600px);
+      height: calc(650px);
       margin-bottom: 60px;
       background-color: white;
       transition: all 0.2s ease;
@@ -50,7 +50,7 @@
 .projects-section img {
   height: 250px;
   width: 100%;
-  object-fit: cover;
+  object-fit: fill;
 }
 
 h3 {
@@ -75,6 +75,16 @@ h4 {
   @media(max-width: 390px) {
       margin-left: 10px;
     }
+}
+
+a.partner {
+  color: $clr-green;
+  &:hover {
+    text-decoration: underline dotted $clr-green;
+  } 
+  &:focus {
+    text-decoration: underline dotted $clr-green;
+  }
 }
 
 
