@@ -77,4 +77,14 @@ h4 {
     }
 }
 
+a.iza {
+  color: $clr-green;
+  &:hover {
+    text-decoration: underline dotted $clr-green;
+  } 
+  &:focus {
+    text-decoration: underline dotted $clr-green;
+  }
+}
+
 

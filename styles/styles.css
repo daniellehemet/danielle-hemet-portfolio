@@ -696,6 +696,18 @@ h4 {
   }
 }
 
+a.iza {
+  color: #365C46;
+}
+a.iza:hover {
+  -webkit-text-decoration: underline dotted #365C46;
+          text-decoration: underline dotted #365C46;
+}
+a.iza:focus {
+  -webkit-text-decoration: underline dotted #365C46;
+          text-decoration: underline dotted #365C46;
+}
+
 .contact-section {
   text-align: center;
   background-color: #a6c5a5;
@@ -757,7 +769,7 @@ h4 {
 
 @media (max-width: 700px) {
   .contact-section p,
-.contact-section form {
+  .contact-section form {
     width: 100%;
   }
 }
