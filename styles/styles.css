@@ -612,9 +612,8 @@ nav ul li:focus {
   margin: 0 auto;
   margin-bottom: 60px;
   padding: 0;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
   max-width: 850px;
 }
 @media (max-width: 1090px) {
@@ -627,7 +626,7 @@ nav ul li:focus {
 }
 .projects-section ul li {
   width: 400px;
-  height: 600px;
+  height: 650px;
   margin-bottom: 60px;
   background-color: white;
   -webkit-transition: all 0.2s ease;
@@ -666,8 +665,8 @@ nav ul li:focus {
 .projects-section img {
   height: 250px;
   width: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
+  -o-object-fit: fill;
+     object-fit: fill;
 }
 
 h3 {
@@ -696,14 +695,14 @@ h4 {
   }
 }
 
-a.iza {
+a.partner {
   color: #365C46;
 }
-a.iza:hover {
+a.partner:hover {
   -webkit-text-decoration: underline dotted #365C46;
           text-decoration: underline dotted #365C46;
 }
-a.iza:focus {
+a.partner:focus {
   -webkit-text-decoration: underline dotted #365C46;
           text-decoration: underline dotted #365C46;
 }
